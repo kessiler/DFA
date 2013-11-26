@@ -1,10 +1,10 @@
 package br.com.tclf.afd.view;
 
-import br.com.tclf.afd.model.State;
+import java.awt.BorderLayout;
+import java.awt.Color;
 
-import javax.swing.*;
-import java.awt.*;
-import java.util.Set;
+import javax.swing.BorderFactory;
+import javax.swing.JPanel;
 
 /**
  * Created with IntelliJ IDEA.
@@ -15,7 +15,12 @@ import java.util.Set;
  */
 public class WindowPanel extends JPanel {
 
-    public WindowPanel() {
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	public WindowPanel() {
         setBorder(BorderFactory.createTitledBorder("Visualização do AFD"));
         setLayout(new BorderLayout(0, 0));
         setBackground(Color.WHITE);

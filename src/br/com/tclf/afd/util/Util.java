@@ -1,8 +1,5 @@
 package br.com.tclf.afd.util;
 
-import br.com.tclf.afd.model.AFD;
-
-import java.awt.*;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;

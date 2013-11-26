@@ -61,8 +61,8 @@ public class AFD {
         for (Iterator<Transition> entry = this.getTransitions().iterator(); entry.hasNext();) {
             Transition transitions = entry.next();
             if (transitions.getStateSource().getName().equals(transition.getStateSource().getName()) &&
-                    transitions.getCharacter().equals(transition.getCharacter()) &&
-                    transitions.getStateDestination().getName().equals(transition.getStateDestination().getName())) {
+                transitions.getCharacter().equals(transition.getCharacter()) &&
+                transitions.getStateDestination().getName().equals(transition.getStateDestination().getName())) {
                 entry.remove();
                 return;
             }
@@ -103,6 +103,7 @@ public class AFD {
                 }
             }
         }
+        fileBuffer.close();
         return afd;
     }
 

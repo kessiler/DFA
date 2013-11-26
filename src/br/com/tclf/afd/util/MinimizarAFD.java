@@ -1,11 +1,19 @@
 package br.com.tclf.afd.util;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.LinkedHashSet;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+
 import br.com.tclf.afd.model.AFD;
 import br.com.tclf.afd.model.State;
 import br.com.tclf.afd.model.TableStates;
 import br.com.tclf.afd.model.Transition;
-
-import java.util.*;
 
 /**
  * Created with IntelliJ IDEA.
@@ -165,9 +173,7 @@ public class MinimizarAFD {
     }
 
     private boolean equalsStates(State stateOne, State stateEnd) {
-        return ((stateOne.isStateBegin() || stateOne.isStateEnd()) && !(stateEnd.isStateBegin() || stateEnd.isStateEnd())) ||
-                !(stateOne.isStateBegin() || stateOne.isStateEnd()) && (stateEnd.isStateBegin() || stateEnd.isStateEnd())  ||
-                (stateOne.isStateBegin() != stateEnd.isStateBegin() && stateEnd.isStateEnd() != stateOne.isStateEnd());
+        return stateOne.isStateEnd() != stateEnd.isStateEnd();
     }
 
     private State searchState(AFD afd, String nameState) {
@@ -196,9 +202,38 @@ public class MinimizarAFD {
             }
         }
     }
+    
+    private State getStateInitial(Set<State> states) {
+    	for (Iterator<State> entry = states.iterator(); entry.hasNext();) {
+    		State stateInitial = entry.next();
+    		if(stateInitial.isStateBegin()) {
+    			return stateInitial;
+    		}
+    	}
+		return null;
+    	
+    }
 
-    private void removeUnreachable(AFD afd) {}
-
+    private void removeUnreachable(AFD afd) {
+    	Set<State> checkAcessible = new HashSet<State>();
+    	State stateInitial = getStateInitial(afd.getStates());
+    	if(stateInitial != null) {
+    		generateAcessives(checkAcessible, afd.getTransitions(), stateInitial);
+    	}
+    	
+    }
+    
+    private void generateAcessives(Set<State> verifyAcessives, Set<Transition> trans, State origem) {
+    	verifyAcessives.add(origem);
+        for (Transition t : trans) {
+            State origin = t.getStateSource(); 
+            State destin = t.getStateDestination();
+            if (origin.getName().equals(origem.getName()) && verifyAcessives.add(destin))
+            	generateAcessives(verifyAcessives, trans, destin);
+        }
+    }
+    
+    
     private void verifytotalTransitions(AFD afd) {
         for (String character : afd.getAlphabet()) {
             for (Iterator<State> entry = afd.getStates().iterator(); entry.hasNext();) {
