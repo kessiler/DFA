@@ -1,6 +1,7 @@
 package br.com.tclf.afd.model;
 
 import java.io.*;
+import java.util.Iterator;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
@@ -15,14 +16,11 @@ public class AFD {
     private Set<String> alphabet = new LinkedHashSet<String>();
     private Set<State> states = new LinkedHashSet<State>();
     private Set<Transition> transitions = new LinkedHashSet<Transition>();
-    private State stateInitial;
-    private Set<State> statesEnd = new LinkedHashSet<State>();
 
     public AFD() {
         this.alphabet.clear();
         this.states.clear();
         this.transitions.clear();
-        this.statesEnd.clear();
     }
 
     public void addAlphabet(String character) {
@@ -30,12 +28,6 @@ public class AFD {
     }
 
     public void addState(State state) {
-        if(state.isStateBegin()) {
-            this.setStateInitial(state);
-        }
-        if(state.isStateEnd()) {
-            this.addStatesEnd(state);
-        }
         this.states.add(state);
     }
 
@@ -55,20 +47,26 @@ public class AFD {
         return transitions;
     }
 
-    public State getStateInitial() {
-        return stateInitial;
+    public void removeState(State state) {
+        for (Iterator<State> entry = this.getStates().iterator(); entry.hasNext();) {
+            State states = entry.next();
+            if (states.getName().equals(state.getName())) {
+                entry.remove();
+                return;
+            }
+        }
     }
 
-    private void setStateInitial(State stateInitial) {
-        this.stateInitial = stateInitial;
-    }
-
-    public Set<State> getStatesEnd() {
-        return statesEnd;
-    }
-
-    private void addStatesEnd(State statesEnd) {
-        this.statesEnd.add(statesEnd);
+    public void removeTransition(Transition transition) {
+        for (Iterator<Transition> entry = this.getTransitions().iterator(); entry.hasNext();) {
+            Transition transitions = entry.next();
+            if (transitions.getStateSource().getName().equals(transition.getStateSource().getName()) &&
+                    transitions.getCharacter().equals(transition.getCharacter()) &&
+                    transitions.getStateDestination().getName().equals(transition.getStateDestination().getName())) {
+                entry.remove();
+                return;
+            }
+        }
     }
 
     public static AFD fromFile(String path) throws IOException {
@@ -76,7 +74,7 @@ public class AFD {
         BufferedReader fileBuffer = new BufferedReader(new FileReader(file));
         AFD afd = new AFD();
         while (fileBuffer.ready()) {
-            String lineFile = fileBuffer.readLine();
+            String lineFile = fileBuffer.readLine().trim();
             if(!lineFile.isEmpty()) {
                 if(lineFile.startsWith("A")) {
                     for (String simbolo : lineFile.substring(2).split(";")) {

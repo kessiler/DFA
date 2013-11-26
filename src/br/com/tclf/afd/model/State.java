@@ -7,12 +7,12 @@ package br.com.tclf.afd.model;
  * Time: 22:24
  * To change this template use File | Settings | File Templates.
  */
-public class State {
+public class State implements Comparable<State> {
     private String stateName;
     private Boolean stateEnd;
     private Boolean stateBegin;
 
-    State(String name) {
+    public State(String name) {
         this.stateName = name;
     }
 
@@ -34,5 +34,10 @@ public class State {
 
     public void setStateBegin(Boolean begin) {
         this.stateBegin = begin;
+    }
+
+    public int compareTo(State other)
+    {
+        return getName().compareTo(other.getName());
     }
 }

@@ -5,9 +5,11 @@ import br.com.tclf.afd.model.State;
 import br.com.tclf.afd.model.Transition;
 import com.mxgraph.canvas.mxGraphics2DCanvas;
 import com.mxgraph.layout.mxParallelEdgeLayout;
+import com.mxgraph.model.mxCell;
 import com.mxgraph.model.mxGraphModel;
 import com.mxgraph.swing.mxGraphComponent;
 import com.mxgraph.util.mxConstants;
+import com.mxgraph.view.mxCellState;
 import com.mxgraph.view.mxGraph;
 import com.mxgraph.view.mxStylesheet;
 
@@ -40,7 +42,6 @@ public class GraphicsAFD {
     }
 
     public JComponent drawAFD() {
-
         createGraph();
         showAFD();
         return graphComponent;
@@ -48,7 +49,7 @@ public class GraphicsAFD {
 
     public void redrawAFD() {
         graph.getModel().beginUpdate();
-        ((mxGraphModel) graph.getModel()).clear();
+        graph.removeCells(graph.getChildCells(graph.getDefaultParent(), true, true));
         graphComponent = new mxGraphComponent(graph);
         graphComponent.setAntiAlias(true);
         graphComponent.setEnabled(false);
@@ -56,7 +57,6 @@ public class GraphicsAFD {
         graph.getModel().endUpdate();
         setNextInt(1);
         showAFD();
-
     }
 
     private void showAFD() {
@@ -70,7 +70,14 @@ public class GraphicsAFD {
             } else {
                 Object source = ((mxGraphModel)graph.getModel()).getCell(transition.getStateSource().getName());
                 Object target = ((mxGraphModel)graph.getModel()).getCell(transition.getStateDestination().getName());
-                addTransition(transition.getCharacter(), source, target);
+                Object edge   = ((mxGraphModel)graph.getModel()).getCell(((mxCell)source).getId() + ((mxCell)target).getId());
+                if(edge != null) {
+                    mxCellState state = graph.getView().getState(edge);
+                    addTransition(state.getLabel() + ", " + transition.getCharacter(), source, target);
+                    graph.getModel().remove(edge);
+                } else {
+                    addTransition(transition.getCharacter(), source, target);
+                }
             }
             layout.execute(graph.getDefaultParent());
         }
@@ -118,12 +125,12 @@ public class GraphicsAFD {
         graph.getModel().beginUpdate();
         try
         {
-            if (state.isStateBegin()) {
-                graph.insertVertex(graph.getDefaultParent(), state.getName(), state.getName(), x, y, CELL_RADIUS, CELL_RADIUS, "shape=stateInitial;perimeter=ellipsePerimeter");
+            if (state.isStateBegin() && state.isStateEnd()) {
+                graph.insertVertex(graph.getDefaultParent(), state.getName(), state.getName(), x, y, CELL_RADIUS, CELL_RADIUS, "shape=stateInitialAndFinal;perimeter=ellipsePerimeter");
             } else if (state.isStateEnd()) {
                 graph.insertVertex(graph.getDefaultParent(), state.getName(), state.getName(), x, y, CELL_RADIUS, CELL_RADIUS, "shape=doubleEllipse;perimeter=ellipsePerimeter");
-            } else if (state.isStateBegin() && state.isStateEnd()){
-                graph.insertVertex(graph.getDefaultParent(), state.getName(), state.getName(), x, y, CELL_RADIUS, CELL_RADIUS, "shape=stateInitialAndFinal;perimeter=ellipsePerimeter");
+            } else if (state.isStateBegin()){
+                graph.insertVertex(graph.getDefaultParent(), state.getName(), state.getName(), x, y, CELL_RADIUS, CELL_RADIUS, "shape=stateInitial;perimeter=ellipsePerimeter");
             } else {
                 graph.insertVertex(graph.getDefaultParent(), state.getName(), state.getName(), x, y, CELL_RADIUS, CELL_RADIUS, "shape=ellipse;perimeter=ellipsePerimeter");
             }
@@ -138,7 +145,7 @@ public class GraphicsAFD {
         graph.getModel().beginUpdate();
         try
         {
-            graph.insertEdge(graph.getDefaultParent(), null, name, source, target);
+            graph.insertEdge(graph.getDefaultParent(), ((mxCell)source).getId() + ((mxCell)target).getId(), name, source, target);
         }
         finally
         {

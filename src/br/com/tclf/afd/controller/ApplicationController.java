@@ -36,8 +36,7 @@ public class ApplicationController {
             @Override
             public void actionPerformed(ActionEvent e) {
                 MinimizarAFD afdMin = new MinimizarAFD();
-                afdMin.minimizar(afd);
-                afd.getTransitions().clear();
+                boolean afdMinimized = afdMin.minimizar(afd);
                 graphicsAFD.setAFD(afd);
                 graphicsAFD.redrawAFD();
                 try {
@@ -45,7 +44,7 @@ public class ApplicationController {
                 } catch (IOException io) {
                     io.printStackTrace();
                 }
-                JOptionPane.showMessageDialog(null, "AFD minimizado.");
+                JOptionPane.showMessageDialog(null, afdMinimized ? "AFD minimizado." : "AFD já é mínimo.");
             }
         });
         menu.add(menuItemAFD);

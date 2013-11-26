@@ -5,21 +5,21 @@
     <ignored path="AFD.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Main.java" changelist="bf9ab4ac-7e6f-4644-ac4b-048c621950ce" time="1384915117989" ignored="false" />
-    <file path="/ApplicationController.java" changelist="bf9ab4ac-7e6f-4644-ac4b-048c621950ce" time="1385330593829" ignored="false" />
+    <file path="/ApplicationController.java" changelist="bf9ab4ac-7e6f-4644-ac4b-048c621950ce" time="1385452187739" ignored="false" />
     <file path="/MainWindow.java" changelist="bf9ab4ac-7e6f-4644-ac4b-048c621950ce" time="1383362165198" ignored="false" />
     <file path="/WindowMain.java" changelist="bf9ab4ac-7e6f-4644-ac4b-048c621950ce" time="1385330191555" ignored="false" />
     <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="bf9ab4ac-7e6f-4644-ac4b-048c621950ce" time="1383363982017" ignored="false" />
-    <file path="/fragment.java" changelist="bf9ab4ac-7e6f-4644-ac4b-048c621950ce" time="1384102793350" ignored="false" />
-    <file path="/AFD.java" changelist="bf9ab4ac-7e6f-4644-ac4b-048c621950ce" time="1385330206760" ignored="false" />
+    <file path="/fragment.java" changelist="bf9ab4ac-7e6f-4644-ac4b-048c621950ce" time="1385450882282" ignored="false" />
+    <file path="/AFD.java" changelist="bf9ab4ac-7e6f-4644-ac4b-048c621950ce" time="1385450391418" ignored="false" />
     <file path="/IAutomato.java" changelist="bf9ab4ac-7e6f-4644-ac4b-048c621950ce" time="1384018500060" ignored="false" />
     <file path="/Automatos.java" changelist="bf9ab4ac-7e6f-4644-ac4b-048c621950ce" time="1384036540200" ignored="false" />
     <file path="/IAFD.java" changelist="bf9ab4ac-7e6f-4644-ac4b-048c621950ce" time="1384091188407" ignored="false" />
-    <file path="/a.dummy" changelist="bf9ab4ac-7e6f-4644-ac4b-048c621950ce" time="1385322471257" ignored="false" />
-    <file path="/State.java" changelist="bf9ab4ac-7e6f-4644-ac4b-048c621950ce" time="1384102113293" ignored="false" />
-    <file path="/AFD.txt" changelist="bf9ab4ac-7e6f-4644-ac4b-048c621950ce" time="1385319860484" ignored="false" />
+    <file path="/a.dummy" changelist="bf9ab4ac-7e6f-4644-ac4b-048c621950ce" time="1385433120735" ignored="false" />
+    <file path="/State.java" changelist="bf9ab4ac-7e6f-4644-ac4b-048c621950ce" time="1385445586418" ignored="false" />
+    <file path="/AFD.txt" changelist="bf9ab4ac-7e6f-4644-ac4b-048c621950ce" time="1385455164328" ignored="false" />
     <file path="$PROJECT_DIR$/../sctmf/src/br/uem/din/yandre/sctmf/model/services/abrir/AbrirModeloFormal.java" changelist="bf9ab4ac-7e6f-4644-ac4b-048c621950ce" time="1384090654974" ignored="false" />
-    <file path="/Transition.java" changelist="bf9ab4ac-7e6f-4644-ac4b-048c621950ce" time="1385319036878" ignored="false" />
-    <file path="/MinimizarAFD.java" changelist="bf9ab4ac-7e6f-4644-ac4b-048c621950ce" time="1385329837683" ignored="false" />
+    <file path="/Transition.java" changelist="bf9ab4ac-7e6f-4644-ac4b-048c621950ce" time="1385436693014" ignored="false" />
+    <file path="/MinimizarAFD.java" changelist="bf9ab4ac-7e6f-4644-ac4b-048c621950ce" time="1385455062351" ignored="false" />
     <file path="/Util.java" changelist="bf9ab4ac-7e6f-4644-ac4b-048c621950ce" time="1384111935164" ignored="false" />
     <file path="/WindowPanel.java" changelist="bf9ab4ac-7e6f-4644-ac4b-048c621950ce" time="1384110454179" ignored="false" />
     <file path="C:/IMDbGraphMiner/src/br/com/unibh/graph/miner/file/FileGraph.java" changelist="bf9ab4ac-7e6f-4644-ac4b-048c621950ce" time="1384916610849" ignored="false" />
@@ -27,11 +27,10 @@
     <file path="C:/IMDbGraphMiner/src/Main.java" changelist="bf9ab4ac-7e6f-4644-ac4b-048c621950ce" time="1384915981821" ignored="false" />
     <file path="C:/IMDbGraphMiner/src/br/com/unibh/graph/miner/algorithms/AlgorithmGraph.java" changelist="bf9ab4ac-7e6f-4644-ac4b-048c621950ce" time="1384914125068" ignored="false" />
     <file path="C:/afff/branches/vaucangraph1/src/projeto/main.java" changelist="bf9ab4ac-7e6f-4644-ac4b-048c621950ce" time="1385254791882" ignored="false" />
-    <file path="/GraphicsAFD.java" changelist="bf9ab4ac-7e6f-4644-ac4b-048c621950ce" time="1385331298850" ignored="false" />
+    <file path="/GraphicsAFD.java" changelist="bf9ab4ac-7e6f-4644-ac4b-048c621950ce" time="1385453047149" ignored="false" />
     <file path="/MinimizacaoAFD.java" changelist="bf9ab4ac-7e6f-4644-ac4b-048c621950ce" time="1385308252266" ignored="false" />
     <file path="$PROJECT_DIR$/../sctmf/src/br/uem/din/yandre/sctmf/model/services/transformacoes/MinimizacaoAFD.java" changelist="bf9ab4ac-7e6f-4644-ac4b-048c621950ce" time="1385308269906" ignored="false" />
     <file path="/InitialStateShape.java" changelist="bf9ab4ac-7e6f-4644-ac4b-048c621950ce" time="1385309955214" ignored="false" />
-    <file path="C:/scalomator-develop/client-swing/src/main/java/scalax/automata/gui/GUI.java" changelist="bf9ab4ac-7e6f-4644-ac4b-048c621950ce" time="1385313502743" ignored="false" />
     <file path="C:/automaton-1.11/src/Diego.java" changelist="bf9ab4ac-7e6f-4644-ac4b-048c621950ce" time="1385329340593" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +46,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -84,8 +82,23 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/src/br/com/tclf/afd/controller/ApplicationController.java" line="39" class="br.com.tclf.afd.controller.ApplicationController$1" package="br.com.tclf.afd.controller">
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/br/com/tclf/afd/util/MinimizarAFD.java" line="33" class="br.com.tclf.afd.util.MinimizarAFD" package="br.com.tclf.afd.util">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/br/com/tclf/afd/util/MinimizarAFD.java" line="40" class="br.com.tclf.afd.util.MinimizarAFD" package="br.com.tclf.afd.util">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -101,6 +114,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </line_breakpoints>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -113,20 +127,11 @@
       <file leaf-file-name="ApplicationController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/com/tclf/afd/controller/ApplicationController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="0" selection-start="1306" selection-end="1306" vertical-scroll-proportion="0.0">
+            <state line="51" column="65" selection-start="1792" selection-end="1792" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#1020#1652#0" expanded="true" />
-                <element signature="e#1641#1642#0" expanded="true" />
+                <element signature="e#1020#1665#0" expanded="true" />
+                <element signature="e#1654#1655#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WindowMain.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/com/tclf/afd/view/WindowMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="11" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -134,43 +139,20 @@
       <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/com/tclf/afd/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="34" selection-start="468" selection-end="468" vertical-scroll-proportion="0.0">
+            <state line="17" column="36" selection-start="470" selection-end="470" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StateInitialAndFinalView.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/com/tclf/afd/view/StateInitialAndFinalView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="61" selection-start="1487" selection-end="1487" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AFD.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AFD.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/com/tclf/afd/model/AFD.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="29" selection-start="652" selection-end="652" vertical-scroll-proportion="-1.2835821">
+            <state line="79" column="55" selection-start="2480" selection-end="2480" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#331#339#0" expanded="true" />
-                <element signature="e#462#474#0" expanded="true" />
-                <element signature="e#562#569#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MinimizarAFD.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/com/tclf/afd/util/MinimizarAFD.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="47" selection-start="748" selection-end="748" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#804#817#0" expanded="true" />
+                <element signature="e#358#366#0" expanded="true" />
+                <element signature="e#489#501#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -179,7 +161,41 @@
       <file leaf-file-name="Transition.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/com/tclf/afd/model/Transition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="4" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0">
+            <state line="14" column="11" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MinimizarAFD.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/com/tclf/afd/util/MinimizarAFD.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="100" column="95" selection-start="5777" selection-end="5777" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#1563#1592#0" expanded="true" />
+                <element signature="e#3701#3708#0" expanded="true" />
+                <element signature="e#4036#4052#0" expanded="true" />
+                <element signature="e#4123#4130#0" expanded="true" />
+                <element signature="e#5532#5544#0" expanded="true" />
+                <element signature="e#8699#8711#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AFD.txt" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/AFD.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="0" selection-start="179" selection-end="179" vertical-scroll-proportion="0.1773913">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="State.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/com/tclf/afd/model/State.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="0" selection-start="430" selection-end="430" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -188,8 +204,20 @@
       <file leaf-file-name="Util.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/com/tclf/afd/util/Util.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="5" selection-start="582" selection-end="582" vertical-scroll-proportion="0.0">
+            <state line="16" column="13" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GraphicsAFD.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/com/tclf/afd/view/GraphicsAFD.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="137" column="71" selection-start="5768" selection-end="5768" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1809#1817#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -212,14 +240,14 @@
         <option value="$PROJECT_DIR$/src/br/com/tclf/afd/view/InitialStateShape.java" />
         <option value="$PROJECT_DIR$/src/br/com/tclf/afd/view/MultiStateShape.java" />
         <option value="$PROJECT_DIR$/src/br/com/tclf/afd/view/StateInitialAndFinalView.java" />
-        <option value="$PROJECT_DIR$/resources/AFD.txt" />
-        <option value="$PROJECT_DIR$/src/br/com/tclf/afd/model/State.java" />
-        <option value="$PROJECT_DIR$/src/br/com/tclf/afd/model/Transition.java" />
-        <option value="$PROJECT_DIR$/src/br/com/tclf/afd/util/MinimizarAFD.java" />
         <option value="$PROJECT_DIR$/src/br/com/tclf/afd/view/WindowMain.java" />
+        <option value="$PROJECT_DIR$/src/br/com/tclf/afd/model/Transition.java" />
+        <option value="$PROJECT_DIR$/src/br/com/tclf/afd/model/State.java" />
         <option value="$PROJECT_DIR$/src/br/com/tclf/afd/model/AFD.java" />
         <option value="$PROJECT_DIR$/src/br/com/tclf/afd/controller/ApplicationController.java" />
         <option value="$PROJECT_DIR$/src/br/com/tclf/afd/view/GraphicsAFD.java" />
+        <option value="$PROJECT_DIR$/src/br/com/tclf/afd/util/MinimizarAFD.java" />
+        <option value="$PROJECT_DIR$/resources/AFD.txt" />
       </list>
     </option>
   </component>
@@ -295,6 +323,86 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AFD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AFD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="afd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AFD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AFD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="afd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AFD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AFD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="afd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AFD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AFD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -313,12 +421,12 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
@@ -407,6 +515,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.67001116" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39910814" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -428,7 +537,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -497,75 +605,22 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_45/src.zip!/java/util/HashMap.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_45/src.zip!/java/awt/Rectangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="279" column="11" selection-start="10640" selection-end="10640" vertical-scroll-proportion="0.3321739">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_45/src.zip!/java/util/HashSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="21" selection-start="3692" selection-end="3692" vertical-scroll-proportion="0.36173913">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/AFDMinimizado.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/AFD.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="40" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/tclf/afd/model/Transition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="4" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/tclf/afd/util/Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="5" selection-start="582" selection-end="582" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/tclf/afd/view/StateInitialView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="30" selection-start="1042" selection-end="1042" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/tclf/afd/model/State.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="4" selection-start="305" selection-end="305" vertical-scroll-proportion="0.41391304">
-          <folding />
-        </state>
+        <state line="149" column="15" selection-start="5485" selection-end="5485" vertical-scroll-proportion="2.7192984" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/br/com/tclf/afd/view/StateInitialAndFinalView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="61" selection-start="1487" selection-end="1487" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="48" column="61" selection-start="1487" selection-end="1487" vertical-scroll-proportion="0.7807118">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/tclf/afd/util/MinimizarAFD.java">
+    <entry file="jar://$PROJECT_DIR$/libs/jgraphx.jar!/com/mxgraph/model/mxGraphModel.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="47" selection-start="748" selection-end="748" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#804#817#0" expanded="true" />
-          </folding>
+        <state line="102" column="28" selection-start="4472" selection-end="4472" vertical-scroll-proportion="0.34947369">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -576,49 +631,104 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/tclf/afd/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/tclf/afd/model/TableStates.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="34" selection-start="468" selection-end="468" vertical-scroll-proportion="0.0">
+        <state line="9" column="24" selection-start="198" selection-end="209" vertical-scroll-proportion="0.10526316">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_45/src.zip!/java/awt/Rectangle.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/tclf/afd/model/State.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="149" column="15" selection-start="5485" selection-end="5485" vertical-scroll-proportion="2.7192984">
+        <state line="19" column="0" selection-start="430" selection-end="430" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/AFDMinimizado.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="133" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/tclf/afd/util/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="13" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/scalomator-develop/client-swing/src/main/java/scalax/automata/gui/GUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="222" column="45" selection-start="7979" selection-end="7979" vertical-scroll-proportion="-15.107826">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/tclf/afd/model/Transition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="11" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/tclf/afd/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="36" selection-start="470" selection-end="470" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/tclf/afd/model/AFD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="55" selection-start="2480" selection-end="2480" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#358#366#0" expanded="true" />
+            <element signature="e#489#501#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/br/com/tclf/afd/controller/ApplicationController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="0" selection-start="1306" selection-end="1306" vertical-scroll-proportion="0.0">
+        <state line="51" column="65" selection-start="1792" selection-end="1792" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#1020#1652#0" expanded="true" />
-            <element signature="e#1641#1642#0" expanded="true" />
+            <element signature="e#1020#1665#0" expanded="true" />
+            <element signature="e#1654#1655#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/br/com/tclf/afd/view/GraphicsAFD.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="68" selection-start="918" selection-end="918" vertical-scroll-proportion="-1.3616533">
+        <state line="137" column="71" selection-start="5768" selection-end="5768" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1706#1714#0" expanded="true" />
+            <element signature="e#1809#1817#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/tclf/afd/model/AFD.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/tclf/afd/util/MinimizarAFD.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="29" selection-start="652" selection-end="652" vertical-scroll-proportion="-1.2835821">
+        <state line="100" column="95" selection-start="5777" selection-end="5777" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#331#339#0" expanded="true" />
-            <element signature="e#462#474#0" expanded="true" />
-            <element signature="e#562#569#0" expanded="true" />
+            <element signature="e#1563#1592#0" expanded="true" />
+            <element signature="e#3701#3708#0" expanded="true" />
+            <element signature="e#4036#4052#0" expanded="true" />
+            <element signature="e#4123#4130#0" expanded="true" />
+            <element signature="e#5532#5544#0" expanded="true" />
+            <element signature="e#8699#8711#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/AFD.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="179" selection-end="179" vertical-scroll-proportion="0.1773913">
+          <folding />
         </state>
       </provider>
     </entry>

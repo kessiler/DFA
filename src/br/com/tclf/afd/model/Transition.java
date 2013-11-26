@@ -12,7 +12,7 @@ public class Transition {
     private String Character;
     private State stateDestination;
 
-    Transition(State stateSource, String character, State stateDestination) {
+    public Transition(State stateSource, String character, State stateDestination) {
         this.stateSource = stateSource;
         this.Character = character;
         this.stateDestination = stateDestination;
