@@ -1,12 +1,13 @@
 DFA minimization algorithm
 =========
 
-What is DFA?
-----
+## What is DFA?
+
 In automata theory, a branch of theoretical computer science, a deterministic finite automaton (DFA) - also known as deterministic finite state machine—is a finite state machine that accepts/rejects finite strings of symbols and only produces a unique computation (or run) of the automaton for each input string.
 
-Formal Definition
------------------
+![DFA](https://raw.githubusercontent.com/kessiler/DFA/master/resources/dfaExample.png)
+
+## Formal Definition
 
 A deterministic finite automaton M is a 5-tuple, (Q, Σ, δ, q0, F), consisting of:
 
@@ -25,12 +26,14 @@ Let w = a1a2 ... an be a string over the alphabet Σ. The automaton M accepts th
 In words, the first condition says that the machine starts in the start state q0. The second condition says that given each character of string w, the machine will transition from state to state according to the transition function δ. The last condition says that the machine accepts w if the last input of w causes the machine to halt in one of the accepting states. Otherwise, it is said that the automaton rejects the string. The set of strings M accepts is the language recognized by M and this language is denoted by L(M).
 
 
-Application
------------ 
+## Application
+
 
 A program for minimizing DFA through the marking table approach. The table of tags is described below:
 
 a) Table - Build a table listing the different states, in which each pair of states occurs only once in the following format:
+
+![Table](https://raw.githubusercontent.com/kessiler/DFA/master/resources/tagTable.png)
 
 b) Marking of course not equivalent states. Mark entries formed by a final state and a non-final state.
 
@@ -50,12 +53,20 @@ d) Unification of equivalent states. The couple marked states are not equivalent
 e) Exclusion of useless states. The useless states should be excluded. A state q is useless if it is not final and from it you can not reach a final state.
 
 
-Dependencies
------------
+## Dependencies
+
 
 * [JGraphx](https://github.com/jgraph/jgraphx) - is a Java Swing diagramming (graph visualisation) library licensed under the BSD license.
 
-License
-----
 
-MIT
+## Contributing
+
+1. Fork it!
+2. Create your feature branch: `git checkout -b my-new-feature`
+3. Commit your changes: `git commit -m 'Add some feature'`
+4. Push to the branch: `git push origin my-new-feature`
+5. Submit a pull request
+
+## License
+
+[MIT License](http://opensource.org/licenses/MIT)
