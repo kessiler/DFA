@@ -10,14 +10,6 @@ import com.mxgraph.util.mxRectangle;
 import com.mxgraph.util.mxUtils;
 import com.mxgraph.view.mxCellState;
 
-/**
- * Created with IntelliJ IDEA.
- * User: KESSILER
- * Date: 24/11/13
- * Time: 13:26
- * To change this template use File | Settings | File Templates.
- */
-
 public class StateInitialAndFinalView extends mxDoubleEllipseShape {
 
 	@Override

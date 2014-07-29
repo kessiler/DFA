@@ -15,25 +15,12 @@ import br.com.tclf.afd.model.State;
 import br.com.tclf.afd.model.TableStates;
 import br.com.tclf.afd.model.Transition;
 
-/**
- * Created with IntelliJ IDEA.
- * User: KESSILER
- * Date: 10/11/13
- * Time: 13:11
- * To change this template use File | Settings | File Templates.
- */
 public class MinimizarAFD {
     public MinimizarAFD() {
     }
 
     public boolean minimizar(AFD afd) {
         boolean minimized = false;
-        // Se δ não é total, adiciona um estado T sumidouro e acrescenta transições ao mesmo
-//        verifytotalTransitions(afd);
-        // Elimina estados inacessíveis e suas devidas transições
-//        removeUnreachable(afd);
-        // Verifica estados não equivalentes
-        // Monta a tabela do AFD
         Set<TableStates> tableStates = new LinkedHashSet<TableStates>();
         Object[] arrStates = afd.getStates().toArray();
         Arrays.sort(arrStates);
@@ -47,11 +34,9 @@ public class MinimizarAFD {
             }
         }
         Map<String, Set<HashSet<State>>> listStates = new HashMap<String, Set<HashSet<State>>>();
-        // Análise agora cada estado não marcado.
         for (Iterator<TableStates> tableStateIterator = tableStates.iterator(); tableStateIterator.hasNext();) {
             TableStates entry  = tableStateIterator.next();
-            if (entry.getValue().isEmpty()) {
-                // faz um split pegando o nome de cada estado para fazer a análise das transições
+            if (entry.getValue().isEmpty()) { 
                 String[] nameStates = entry.getKey().split(";");
                 for (String character : afd.getAlphabet()) {
                     Transition transitionA = searchTransition(afd, nameStates[0], character);
@@ -87,7 +72,6 @@ public class MinimizarAFD {
                 }
             }
         }
-        // Análise quem não foi marcado
         for (Iterator<TableStates> tableStateIterator = tableStates.iterator(); tableStateIterator.hasNext();) {
             TableStates entry  = tableStateIterator.next();
             if (entry.getValue().isEmpty()) {
@@ -99,7 +83,6 @@ public class MinimizarAFD {
                     if(stateA.isStateEnd() || stateB.isStateEnd()) {
                         newState.setStateEnd(Boolean.TRUE);
                     }
-                    // Remove os estados antigos e recria as novas transições
                     afd.removeState(stateA);
                     afd.removeState(stateB);
                     afd.addState(newState);
@@ -239,7 +222,7 @@ public class MinimizarAFD {
             for (Iterator<State> entry = afd.getStates().iterator(); entry.hasNext();) {
                 State state = entry.next();
                 if(searchTransition(afd, state.getName(), character) == null) {
-                    afd.addTransition(new Transition(state, character, new State("ERRO")));
+                    afd.addTransition(new Transition(state, character, new State("error")));
                 }
             }
         }

@@ -16,13 +16,6 @@ import com.mxgraph.view.mxStylesheet;
 import javax.swing.*;
 import java.util.*;
 
-/**
- * Created with IntelliJ IDEA.
- * User: KESSILER
- * Date: 24/11/13
- * Time: 13:26
- * To change this template use File | Settings | File Templates.
- */
 public class GraphicsAFD {
     private mxGraph graph;
     private mxGraphComponent graphComponent;

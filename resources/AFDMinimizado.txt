@@ -1,3 +1,3 @@
-A: 0; 1; 
-E: q3; q0q1; q2q4-F; 
-T: q3-0-q3; q0q1-1-q3; q2q4-0-q3; q2q4-0-q0q1; q0q1-1-q2q4; q3-1-q2q4; 
+A: a; b; 
+E: q0-I-F; q1; q2q4; q3q5-F; 
+T: q0-b-q1; q1-a-q1; q1-b-q0; q0-a-q2q4; q2q4-a-q3q5; q3q5-a-q2q4; q3q5-b-q2q4; q2q4-b-q3q5; 

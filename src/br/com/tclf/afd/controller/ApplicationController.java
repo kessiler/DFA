@@ -12,16 +12,9 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.IOException;
 
-/**
- * Created with IntelliJ IDEA.
- * User: KESSILER
- * Date: 02/11/13
- * Time: 01:09
- * To change this template use File | Settings | File Templates.
- */
 public class ApplicationController {
 
-    private final String titleWindow = "Trabalho TCLF - Minimização AFD";
+    private final String titleWindow = "Work Theory of Computation - DFA Minization";
     private WindowMain guiApplication;
     private AFD afd;
     private GraphicsAFD graphicsAFD;
@@ -29,9 +22,9 @@ public class ApplicationController {
 
     public ApplicationController() throws IOException {
         JMenuBar mainMenuBar = new JMenuBar();
-        JMenu menu = new JMenu("Algoritmos");
+        JMenu menu = new JMenu("Algorithm");
         mainMenuBar.add(menu);
-        JMenuItem menuItemAFD = new JMenuItem("Minimizar AFD");
+        JMenuItem menuItemAFD = new JMenuItem("Minimize DFA");
         menuItemAFD.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -44,7 +37,7 @@ public class ApplicationController {
                 } catch (IOException io) {
                     io.printStackTrace();
                 }
-                JOptionPane.showMessageDialog(null, afdMinimized ? "AFD minimizado." : "AFD já é mínimo.");
+                JOptionPane.showMessageDialog(null, afdMinimized ? "DFA minimized." : "DFA is minimal.");
             }
         });
         menu.add(menuItemAFD);

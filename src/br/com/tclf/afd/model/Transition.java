@@ -1,12 +1,5 @@
 package br.com.tclf.afd.model;
 
-/**
- * Created with IntelliJ IDEA.
- * User: KESSILER
- * Date: 09/11/13
- * Time: 22:24
- * To change this template use File | Settings | File Templates.
- */
 public class Transition {
     private State stateSource;
     private String Character;

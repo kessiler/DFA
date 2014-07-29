@@ -1,17 +1,13 @@
 package br.com.tclf.afd.model;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.Iterator;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
-/**
- * Created with IntelliJ IDEA.
- * User: KESSILER
- * Date: 09/11/13
- * Time: 15:30
- * To change this template use File | Settings | File Templates.
- */
 public class AFD {
     private Set<String> alphabet = new LinkedHashSet<String>();
     private Set<State> states = new LinkedHashSet<State>();
